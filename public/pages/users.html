@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <h1 id="greating"></h1>
+    <hr>
+    <h2>mhhbmhb</h2>
+    <div>
+        <input type="hidden" id="id">
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+        <label for="username">Username:</label>
+        <input id="username" type="text">
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+        <button onclick="addOrEditUser()">Send</button>
+    </div>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody id="usersTable"></tbody>
+    </table>
+    <script src="../scripts/users.js"></script>
+</body>
+</html>
